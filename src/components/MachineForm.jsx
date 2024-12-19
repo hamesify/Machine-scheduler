@@ -3,8 +3,7 @@ import {useState} from "react";
 /* 
 -This component requires a list of all employees
 -The list should not include the employees already assigned to the machine.
--This component displays a list of assigned operators and packers for the specific machine.
--The ability to delete employees from the assigned machine.
+-This component displays a list of assigned operators and packers for the specific machine and the ability to delete employees from the assigned machine.
 */
 
 let employees = JSON.parse(localStorage.getItem("employees"));
